@@ -8,5 +8,5 @@
   If a user enters the shortened URL into the browser URL-bar:
     If the key exists in the DB, they will be redirected to the raw-URL, else they will be notified that it's not stored in the DB.
 
-# URLShortener (REST API)
+# UrlShortener (REST API)
   The same app, only that it is made as an API.
