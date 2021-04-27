@@ -5,8 +5,8 @@
   user types in a raw-url (e.g. 'www.google.com') and then gets their shortened one. if the raw-url has been INSERT'ed into the DB before by someone,
   the key-generator piece of code would not run and we only fetch the previously INSERT'ed URL and show it to the user.
   
-  # If a user enters the shortened URL into the browser URL-bar:
+  If a user enters the shortened URL into the browser URL-bar:
     If the key exists in the DB, they will be redirected to the raw-URL, else they will be notified that it's not stored in the DB.
 
 # URLShortener (REST API)
-  the same piece of app, only that it is an api that a developer can on their app.
+  The same app, only that it is made as an API.
